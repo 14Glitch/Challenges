@@ -1,0 +1,67 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+/* All Configs */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--purple);
+    background-color: var(--body-bg-color);
+    text-decoration: none;
+}
+/* Colors */
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+/*Style*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content h1 {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+.content-user img[alt="user"]{
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 2px solid var(--purple);
+    padding: 3px;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+button {
+    margin: 10px;
+    outline: var(--purple) 2px solid;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+button:hover {
+    opacity: 0.8;
+}
+.content-social {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    margin: 40px;
+}
